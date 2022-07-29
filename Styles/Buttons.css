@@ -1,0 +1,58 @@
+.button-create{
+    background-color: darkslategray;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 850px;
+}
+
+.button i {
+    color: #cea135;
+}
+
+.button-login {
+    background-color: darkslategray;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 20px;
+}
+
+.button-signup {
+    background-color: darkslategray;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 25px;
+}
+
+.button-signupforfree {
+    background-color: tan;
+    color: black;
+    font-weight: bold;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid tan;
+    border-radius: 1px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.button-learnmore {
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border-radius: 1px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 20px;
+}

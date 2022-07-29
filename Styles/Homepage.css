@@ -1,0 +1,109 @@
+
+body {
+    margin: 0px;
+}
+
+.Navigation-wrapper {
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    background-color: black;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+}
+
+.Logo img{
+    padding: 10px;
+    width: 200px;
+    height: 100%;
+}
+
+.Options-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.Explore-tag {
+    font-size: 10px;
+    font-weight: bold;
+    color:#cea135;
+}
+
+.Options {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.Spark-tag {
+    color: grey;
+    display: flex;
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.Spark-tag i {
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.magnifying-glass i {
+    color: lightslategray;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.Codepen-body {
+    padding-left: 30px;
+    padding-top: 10px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    background-color: rgb(48, 48, 54);
+    font-family: 'Oxygen', sans-serif;
+    font-size: 30px;
+    font-weight: 10;
+    color: white;
+}
+
+.Codepen-promotion p{
+    font-family: 'Oxygen', sans-serif;
+    line-height: 50px;
+    padding: 20px;
+}
+
+.Codepen-promotion i {
+    color: white;
+}
+
+.Codepen-image img{
+    width: 800px;
+    height: 600px;
+}
+
+.Codepen-image p {
+    margin-left: 10px;
+}
+
+.Bottom-options {
+    background-color: rgb(89, 89, 89);
+    color: white;
+    font-size: 20px;
+    font-family: 'Oxygen', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.Bottom-options > .advertising {
+    width: 500px;
+    border: white 1px solid;
+}
+
+.Bottom-options p span {
+    font-weight: bolder;
+    font-size: larger;
+}
